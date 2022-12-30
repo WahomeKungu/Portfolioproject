@@ -100,9 +100,7 @@ join CovidVaccinations$ vac
  WHERE dea.continent is not null
  --order by 2,3
  )
- SELECT *, (Rollingpeoplevaccinated/population) * 100
- FROM popvsVac
-
+ 
 
 
 
